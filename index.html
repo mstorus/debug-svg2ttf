@@ -1,0 +1,33 @@
+<html>
+  <body>
+    <style>
+    @font-face {
+      font-family: test_fontforge;
+      src: url("font/test_fontforge.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: test_node;
+      src: url("font/test_node.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    .circle {
+      font-size: 40px;
+      margin-left: 40px;
+      margin-top: 40px;
+      margin-bottom: 150px;
+    }
+    .circle-fontforge {
+      font-family: test_fontforge;
+    }
+    .circle-node {
+      font-family: test_node;
+    }
+    </style>
+
+    <div class='circle circle-fontforge'>&#xf101;</div>
+    <div class='circle circle-node'>&#xf101;</div>
+  </body>
+</html>
